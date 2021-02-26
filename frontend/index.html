@@ -4,7 +4,8 @@
 <body>
 	<form ref='uploadForm' id='uploadForm' action='http://localhost:8000/upload' method='post'
 		encType="multipart/form-data">
-		<input type="file" name="sampleFile" />
+		<input type="file" name="sampleFile" id='fileup' />
+		<input type="text" name="username" id="username">
 		<input type='submit' id='submitBtn' value='Upload!' />
 	</form>
 </body>
